@@ -1,0 +1,17 @@
+Truth Discovery Algorithms Experiments 
+
+1. Please run the experiments found in folder ‘TD_experiments’
+‘python Experiments_beta.py’
+‘python Experiments_gamma.py’
+‘python Experiments_uniform.py’
+‘python Experiments.py’
+ 
+The environment from which the data is generated is probabilistic and therefore might vary slightly when rerun.
+
+Blockchain Experiments in Ethereum 
+The following is how the experiment environment is created and the experiments are run for one set of experiments.
+
+1. Initialise the Ganache private blockchain 
+2. Navigate into ethereum_experiements/eth-ganache-setup and deploy the smart contracts to the Ganache blockchain using ‘truffle deploy’.
+3. Then navigate back to the ethereum_experiments root folder (where docker-compose.yaml is to be found) and run ‘docker-compose up’
+ 
