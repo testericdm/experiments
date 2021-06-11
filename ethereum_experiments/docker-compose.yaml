@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  product-service:
+    build: /experiment/client1/app
+  product-service2:
+    build: /experiment/client2/app
+  product-service3:
+    build: /experiment/client3/app
+  product-service4:
+    build: /experiment/client4/app
+  product-service5:
+    build: /experiment/client5/app
